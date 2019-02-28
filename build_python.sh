@@ -2,9 +2,6 @@
 set -o nounset
 
 python_url=$1
-current_dir=$(pwd)
-
-cd /tmp
 
 echo "Installing dependencies"
 sudo apt install -y build-essential checkinstall
@@ -28,6 +25,6 @@ echo "Installing"
 sudo make altinstall
 
 echo "Cleaning up"
-rm -rf /tmp/python_source
-rm -f /tmp/python_source.tar.xz
+sudo rm -rf /tmp/python_source
+sudo rm -f /tmp/python_source.tar.xz
 
