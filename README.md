@@ -1,5 +1,6 @@
 # build-python
-Script to rapidly build python from source using URL to the .tar.xz
+Script to rapidly build python from source using URL to the .tar.xz.
+
 Script uses APT therefor will work on Debian based Linux distros.
 
 ### Warning: Always check what you run from internet! Don't trust anyone!
